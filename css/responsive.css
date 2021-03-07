@@ -1,0 +1,76 @@
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1399px){
+	
+}
+@media (min-width: 1400px) { 
+	
+}
+@media (min-width: 1200px) { 
+	
+}
+
+@media (max-width: 1199px) { 
+	
+}
+
+@media (max-width: 991.98px) {
+	#menu{
+		display: none;
+	}
+
+	.hamburger-menu {
+		display: block;
+	}
+	.ofcavas-menu {
+		display: block;
+	}
+	.right-login {
+		padding: 32px 35px;
+	}
+	
+}
+578
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767.98px) {
+	.left-login{
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
+		border-bottom-left-radius: 0px;
+	}
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575px) {
+	.left-login{
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
+		border-bottom-left-radius: 0px;
+	}
+	.right-login {
+		padding: 32px 20px;
+	}
+	label {
+		min-width: 100px;
+	}
+	.gender-box span {
+		margin-right: 15px;
+	}
+	.gender-box i {
+		width: 30px;
+		height: 30px;
+		background-color: #41b318;
+		border-radius: 50%;
+		text-align: center;
+		font-size: 18px;
+		color: #fff;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-right: 5px;
+	}
+	.middel-span{
+		padding: 0 20px;
+	}
+}
+
+
